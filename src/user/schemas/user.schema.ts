@@ -3,7 +3,7 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
  import { Address } from './address.schema';
 
  @Schema()
-
+// embended relations
  export class User extends Document {
     @Prop()
     name:string;
